@@ -1,0 +1,1 @@
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",(()=>{console.log("Elindult"),document.getElementById("username").addEventListener("input",(e=>{let t=e.currentTarget;document.body.style.backgroundColor=t.value,console.log(t.value),t.pattern.includes("[a-zA-Z-0-9]")}))}))})();
